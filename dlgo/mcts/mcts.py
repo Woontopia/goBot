@@ -105,3 +105,4 @@ class MCTSAgent(agent.Agent):
             bot_move = bots[game.next_player].select_move(game)
             game = game.apply_move(bot_move)
         return game.winner()
+
